@@ -25,15 +25,24 @@ def getQty(item):
     return stock_data[item]
 
 def loadData(file="inventory.json"):
-    f = open(file, "r")
     global stock_data
-    stock_data = json.loads(f.read())
-    f.close()
+    try:
+        with open(file, "r", encoding="utf-8") as f:
+            stock_data = json.loads(f.read())
+    except FileNotFoundError:
+        print(f"Info: {file} not found, starting with empty inventory.")
+        stock_data = {}
+    except json.JSONDecodeError:
+        print(f"Error: Could not decode {file}. Starting with empty inventory.")
+        stock_data = {}
+
 
 def saveData(file="inventory.json"):
-    f = open(file, "w")
-    f.write(json.dumps(stock_data))
-    f.close()
+    try:
+        with open(file, "w", encoding="utf-8") as f:
+            f.write(json.dumps(stock_data, indent=4))
+    except IOError as e:
+        print(f"Error saving data to {file}: {e}")
 
 def printData():
     print("Items Report")
