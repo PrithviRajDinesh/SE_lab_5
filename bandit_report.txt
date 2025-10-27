@@ -1,4 +1,4 @@
-Run started:2025-10-27 06:40:21.285441
+Run started:2025-10-27 06:51:45.134624
 
 Test results:
 >> Issue: [B110:try_except_pass] Try, Except, Pass detected.
@@ -12,19 +12,9 @@ Test results:
 21	
 
 --------------------------------------------------
->> Issue: [B307:blacklist] Use of possibly insecure function - consider using safer ast.literal_eval.
-   Severity: Medium   Confidence: High
-   CWE: CWE-78 (https://cwe.mitre.org/data/definitions/78.html)
-   More Info: https://bandit.readthedocs.io/en/1.8.6/blacklists/blacklist_calls.html#b307-eval
-   Location: ./inventory_system.py:59:4
-58	    printData()
-59	    eval("print('eval used')")  # dangerous
-60	
-
---------------------------------------------------
 
 Code scanned:
-	Total lines of code: 50
+	Total lines of code: 49
 	Total lines skipped (#nosec): 0
 	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0
 
@@ -32,11 +22,11 @@ Run metrics:
 	Total issues (by severity):
 		Undefined: 0
 		Low: 1
-		Medium: 1
+		Medium: 0
 		High: 0
 	Total issues (by confidence):
 		Undefined: 0
 		Low: 0
 		Medium: 0
-		High: 2
+		High: 1
 Files skipped (0):

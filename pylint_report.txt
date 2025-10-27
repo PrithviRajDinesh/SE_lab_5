@@ -23,9 +23,8 @@ inventory_system.py:36:0: C0103: Function name "printData" doesn't conform to sn
 inventory_system.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
 inventory_system.py:41:0: C0103: Function name "checkLowItems" doesn't conform to snake_case naming style (invalid-name)
 inventory_system.py:48:0: C0116: Missing function or method docstring (missing-function-docstring)
-inventory_system.py:59:4: W0123: Use of eval (eval-used)
 inventory_system.py:2:0: W0611: Unused import logging (unused-import)
 
 -----------------------------------
-Your code has been rated at 4.80/10
+Your code has been rated at 4.90/10
 
