@@ -1,17 +1,7 @@
-Run started:2025-10-27 06:53:58.272383
+Run started:2025-10-27 06:55:30.107335
 
 Test results:
->> Issue: [B110:try_except_pass] Try, Except, Pass detected.
-   Severity: Low   Confidence: High
-   CWE: CWE-703 (https://cwe.mitre.org/data/definitions/703.html)
-   More Info: https://bandit.readthedocs.io/en/1.8.6/plugins/b110_try_except_pass.html
-   Location: ./inventory_system.py:21:4
-20	            del stock_data[item]
-21	    except:
-22	        pass
-23	
-
---------------------------------------------------
+	No issues identified.
 
 Code scanned:
 	Total lines of code: 51
@@ -21,12 +11,12 @@ Code scanned:
 Run metrics:
 	Total issues (by severity):
 		Undefined: 0
-		Low: 1
+		Low: 0
 		Medium: 0
 		High: 0
 	Total issues (by confidence):
 		Undefined: 0
 		Low: 0
 		Medium: 0
-		High: 1
+		High: 0
 Files skipped (0):

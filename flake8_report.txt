@@ -1,11 +1,10 @@
 inventory_system.py:2:1: F401 'logging' imported but unused
 inventory_system.py:8:1: E302 expected 2 blank lines, found 1
 inventory_system.py:16:1: E302 expected 2 blank lines, found 1
-inventory_system.py:21:5: E722 do not use bare 'except'
-inventory_system.py:24:1: E302 expected 2 blank lines, found 1
-inventory_system.py:27:1: E302 expected 2 blank lines, found 1
-inventory_system.py:33:1: E302 expected 2 blank lines, found 1
-inventory_system.py:38:1: E302 expected 2 blank lines, found 1
-inventory_system.py:43:1: E302 expected 2 blank lines, found 1
-inventory_system.py:50:1: E302 expected 2 blank lines, found 1
-inventory_system.py:62:1: E305 expected 2 blank lines after class or function definition, found 1
+inventory_system.py:25:1: E302 expected 2 blank lines, found 1
+inventory_system.py:28:1: E302 expected 2 blank lines, found 1
+inventory_system.py:34:1: E302 expected 2 blank lines, found 1
+inventory_system.py:39:1: E302 expected 2 blank lines, found 1
+inventory_system.py:44:1: E302 expected 2 blank lines, found 1
+inventory_system.py:51:1: E302 expected 2 blank lines, found 1
+inventory_system.py:63:1: E305 expected 2 blank lines after class or function definition, found 1
